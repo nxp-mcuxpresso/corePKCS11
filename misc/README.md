@@ -1,0 +1,1 @@
+This folder contains sbom.spdx that comes from the original repo and describes the original package content.

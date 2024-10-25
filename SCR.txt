@@ -1,0 +1,14 @@
+NXP Software Content Register
+
+Package: corepkcs11
+Version: 3.5.0
+Outgoing License: MIT
+License File: LICENSE
+Type of Content: source code, header files
+Description and comments: PKCS #11 key management library
+Release Location: https://github.com/nxp-mcuxpresso/corepkcs11
+Origin: 
+      NXP (MIT)
+      Amazon FreeRTOS corePKCS11 v3.5.0 (MIT)  -  https://github.com/FreeRTOS/corePKCS11/tree/v3.5.0
+      ARMmbed mbedtls v2.28.0 (Apache-2.0) - https://github.com/ARMmbed/mbedtls.git
+
