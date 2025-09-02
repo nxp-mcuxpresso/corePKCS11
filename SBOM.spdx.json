@@ -2,20 +2,20 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2025-06-17T09:27:39Z",
+    "created": "2025-09-01T13:04:25Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.20"
   },
-  "name": "corepkcs11-v25.06.00",
+  "name": "corepkcs11-v25.09.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/c59bf069-6961-4820-a876-cfade635a93c",
+  "documentNamespace": "https://nxp.com/spdx/7b82d640-3a0a-4af6-ac30-1b3d5ad06041",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-c59bf069-6961-4820-a876-cfade635a93c",
+      "SPDXID": "SPDXRef-package-7b82d640-3a0a-4af6-ac30-1b3d5ad06041",
       "name": "corepkcs11",
-      "versionInfo": "v25.06.00",
+      "versionInfo": "v25.09.00",
       "licenseConcluded": "(MIT)",
       "licenseDeclared": "(MIT)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/corepkcs11",
@@ -52,10 +52,10 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-c59bf069-6961-4820-a876-cfade635a93c"
+      "relatedSpdxElement": "SPDXRef-package-7b82d640-3a0a-4af6-ac30-1b3d5ad06041"
     },
     {
-      "spdxElementId": "SPDXRef-package-c59bf069-6961-4820-a876-cfade635a93c",
+      "spdxElementId": "SPDXRef-package-7b82d640-3a0a-4af6-ac30-1b3d5ad06041",
       "relationshipType": "CONTAINS",
       "relatedSpdxElement": "SPDXRef-package-40c21407-9f05-4aa5-a2e6-779d71944265"
     }
