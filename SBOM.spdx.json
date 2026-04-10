@@ -2,62 +2,26 @@
   "SPDXID": "SPDXRef-DOCUMENT",
   "spdxVersion": "SPDX-2.3",
   "creationInfo": {
-    "created": "2026-01-08T03:54:15Z",
+    "created": "2026-04-16T08:23:09Z",
     "creators": [
       "Organization: NXP"
     ],
     "licenseListVersion": "3.26"
   },
-  "name": "corepkcs11-v26.03.00-pvw1",
+  "name": "corepkcs11-v26.06.00",
   "dataLicense": "CC0-1.0",
-  "documentNamespace": "https://nxp.com/spdx/aecda182-a495-4f39-a92f-c95e70d596b1",
+  "documentNamespace": "https://nxp.com/spdx/5458b980-7b42-4e03-8cff-0c46eb05e3a5",
   "packages": [
     {
-      "SPDXID": "SPDXRef-package-aecda182-a495-4f39-a92f-c95e70d596b1",
+      "SPDXID": "SPDXRef-package-5458b980-7b42-4e03-8cff-0c46eb05e3a5",
       "name": "corepkcs11",
-      "versionInfo": "v26.03.00-pvw1",
-      "licenseConcluded": "(MIT)",
-      "licenseDeclared": "(MIT)",
+      "versionInfo": "v26.06.00",
+      "licenseConcluded": "(BSD-3-Clause)",
+      "licenseDeclared": "(BSD-3-Clause)",
       "downloadLocation": "https://github.com/nxp-mcuxpresso/corepkcs11",
       "originator": "Organization: NXP",
       "supplier": "NOASSERTION",
       "externalRefs": [],
-      "filesAnalyzed": false
-    },
-    {
-      "SPDXID": "SPDXRef-package-3f96694c-c4bb-4344-a0a6-98923223c58e",
-      "name": "Apache License 2.0",
-      "versionInfo": "2.0",
-      "licenseConcluded": "Apache-2.0",
-      "licenseDeclared": "Apache-2.0",
-      "homepage": "http://www.apache.org",
-      "downloadLocation": "NOASSERTION",
-      "originator": "Organization: Apache License 2.0",
-      "supplier": "NOASSERTION",
-      "externalRefs": [],
-      "filesAnalyzed": false
-    },
-    {
-      "SPDXID": "SPDXRef-package-2e65b1f6-c4a5-48d9-b9f4-57cf0b791a14",
-      "name": "FreeRTOS/corePKCS11",
-      "versionInfo": "v3.6.3",
-      "licenseConcluded": "MIT",
-      "licenseDeclared": "MIT",
-      "downloadLocation": "https://github.com/FreeRTOS/corePKCS11/releases/tag/v3.6.3",
-      "originator": "Organization: freertos",
-      "supplier": "NOASSERTION",
-      "externalRefs": [
-        {
-          "referenceCategory": "OTHER",
-          "referenceLocator": "b92fdd2d-3fe1-4bd3-896f-1c0b099c7fb6",
-          "referenceType": "BlackDuck-ComponentOrigin"
-        },
-        {
-          "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:github/FreeRTOS/corePKCS11@v3.6.3",
-          "referenceType": "purl"
-        }
-      ],
       "filesAnalyzed": false
     }
   ],
@@ -65,17 +29,7 @@
     {
       "spdxElementId": "SPDXRef-DOCUMENT",
       "relationshipType": "DESCRIBES",
-      "relatedSpdxElement": "SPDXRef-package-aecda182-a495-4f39-a92f-c95e70d596b1"
-    },
-    {
-      "spdxElementId": "SPDXRef-package-aecda182-a495-4f39-a92f-c95e70d596b1",
-      "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-2e65b1f6-c4a5-48d9-b9f4-57cf0b791a14"
-    },
-    {
-      "spdxElementId": "SPDXRef-package-aecda182-a495-4f39-a92f-c95e70d596b1",
-      "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-package-3f96694c-c4bb-4344-a0a6-98923223c58e"
+      "relatedSpdxElement": "SPDXRef-package-5458b980-7b42-4e03-8cff-0c46eb05e3a5"
     }
   ]
 }
